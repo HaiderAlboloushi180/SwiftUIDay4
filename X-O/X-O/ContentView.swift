@@ -4,7 +4,9 @@
 //
 //  Created by Haider Alboloushi on 8/27/20.
 //  Copyright © 2020 Haider. All rights reserved.
-// 
+//
+
+// MARK: -This is for both day 4 and 5 -
 
 import SwiftUI
 
@@ -146,3 +148,4 @@ struct BG: View {
         .edgesIgnoringSafeArea(.all)
     }
 }
+

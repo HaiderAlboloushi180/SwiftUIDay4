@@ -91,6 +91,9 @@ struct ContentView: View {
                 }))
             }
         }
+        .onAppear {
+            playSound(sound: "ROCKY-BALBOA-Theme-Song", type: "mp3")
+        }
     }
 }
 

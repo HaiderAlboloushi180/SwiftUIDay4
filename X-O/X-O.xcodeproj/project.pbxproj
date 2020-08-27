@@ -13,6 +13,8 @@
 		D52DB08624F7ED050089535B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D52DB08524F7ED050089535B /* Assets.xcassets */; };
 		D52DB08924F7ED050089535B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D52DB08824F7ED050089535B /* Preview Assets.xcassets */; };
 		D52DB08C24F7ED050089535B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D52DB08A24F7ED050089535B /* LaunchScreen.storyboard */; };
+		D5DEFBEA24F85E8800336425 /* SoundPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5DEFBE924F85E8800336425 /* SoundPlayer.swift */; };
+		D5DEFBEC24F860CC00336425 /* ROCKY-BALBOA-Theme-Song.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D5DEFBEB24F860CC00336425 /* ROCKY-BALBOA-Theme-Song.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		D52DB08824F7ED050089535B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		D52DB08B24F7ED050089535B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D52DB08D24F7ED050089535B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D5DEFBE924F85E8800336425 /* SoundPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundPlayer.swift; sourceTree = "<group>"; };
+		D5DEFBEB24F860CC00336425 /* ROCKY-BALBOA-Theme-Song.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "ROCKY-BALBOA-Theme-Song.mp3"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,9 +60,11 @@
 		D52DB07E24F7ED030089535B /* X-O */ = {
 			isa = PBXGroup;
 			children = (
+				D5DEFBEB24F860CC00336425 /* ROCKY-BALBOA-Theme-Song.mp3 */,
 				D52DB07F24F7ED030089535B /* AppDelegate.swift */,
 				D52DB08124F7ED030089535B /* SceneDelegate.swift */,
 				D52DB08324F7ED030089535B /* ContentView.swift */,
+				D5DEFBE924F85E8800336425 /* SoundPlayer.swift */,
 				D52DB08524F7ED050089535B /* Assets.xcassets */,
 				D52DB08A24F7ED050089535B /* LaunchScreen.storyboard */,
 				D52DB08D24F7ED050089535B /* Info.plist */,
@@ -136,6 +142,7 @@
 				D52DB08C24F7ED050089535B /* LaunchScreen.storyboard in Resources */,
 				D52DB08924F7ED050089535B /* Preview Assets.xcassets in Resources */,
 				D52DB08624F7ED050089535B /* Assets.xcassets in Resources */,
+				D5DEFBEC24F860CC00336425 /* ROCKY-BALBOA-Theme-Song.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -148,6 +155,7 @@
 			files = (
 				D52DB08024F7ED030089535B /* AppDelegate.swift in Sources */,
 				D52DB08224F7ED030089535B /* SceneDelegate.swift in Sources */,
+				D5DEFBEA24F85E8800336425 /* SoundPlayer.swift in Sources */,
 				D52DB08424F7ED030089535B /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
